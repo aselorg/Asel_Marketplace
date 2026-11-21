@@ -1,0 +1,23 @@
+@font-face {
+    font-family: freadoka;
+    src: url(./shared/fonts/ofont.ru_Fredoka\ One.ttf);
+}
+@font-face {
+    font-family: hardenne;
+    src: url(./shared/fonts/ofont.ru_Hardenne.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body, #root{
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3{
+    font-family: freadoka;
+}
+p, li, a{
+    font-family: hardenne;
+}
