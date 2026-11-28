@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './css/Header.css';
 
 export default function Header() {
@@ -8,9 +9,9 @@ export default function Header() {
             <input className='header_input' type="text" />
         </section>
         <nav className='header_nav'>
-            <p className='header_p'>🏠︎ Меню</p>
-            <p className='header_p'>✉ Корзина</p>
-            <p className='header_p'>⌕ Поиск</p>
+            <Link to='/'>🏠︎ Главная</Link>
+            <Link to='/basket'>✉ Корзина</Link>
+            <Link to='/about'>🛈 О нас</Link>
         </nav>
     </div>
   )

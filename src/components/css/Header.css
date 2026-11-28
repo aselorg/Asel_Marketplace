@@ -1,25 +1,31 @@
 .header_wrapp{
-    height: 100px;
     width: 100%;
+    padding: 15px 20px;
     background-color: lavender;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+
+    z-index: 100;
+    position: relative;
+    box-shadow: 3px 3px 5px rgb(95, 64, 126);
 }
 .header_h3{
-    height: 50px;
+    padding: 5px 10px;
     background-color: rebeccapurple;
     color: aliceblue;
     border-radius: 5px;
     letter-spacing: 2px;
+    cursor: default;
 }
 .header_nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    padding-top: 5px;
 }
 .header_section{
     display: flex;
@@ -31,10 +37,23 @@
     width: 220px;
     height: 30px;
     border: none;
+    padding: 5px 10px;
     border-radius: 5px;
+    color: rebeccapurple;
     box-shadow: 3px 3px 3px rebeccapurple;
 }
-.header_p{
+.header_input:focus {
+    outline: none;
+}
+.header_nav a{
     color: aliceblue;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    line-height: 20px;
     text-shadow: 1px 1px 1.5px rebeccapurple;
+}
+
+.header_nav a:hover {
+    color: rebeccapurple;
+    text-shadow: 1px 1px 1.5px aliceblue;
 }
