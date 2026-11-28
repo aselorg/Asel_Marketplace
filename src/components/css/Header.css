@@ -1,1 +1,40 @@
-/* hiii */
+.header_wrapp{
+    height: 100px;
+    width: 100%;
+    background-color: lavender;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.header_h3{
+    height: 50px;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.header_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.header_input{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rebeccapurple;
+}
+.header_p{
+    color: aliceblue;
+    text-shadow: 1px 1px 1.5px rebeccapurple;
+}
