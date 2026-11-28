@@ -1,1 +1,15 @@
 /* Cards.css */
+.cards_banner img{
+    width: 50vw;
+    height: 70vh;
+    object-fit: cover;
+    box-shadow: 3px 0 3px rebeccapurple,
+    -3px 0 3px rebeccapurple;
+}
+.cards_banner{
+    background: linear-gradient(130deg, lavender, aliceblue, lavender);
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+}
